@@ -2028,7 +2028,7 @@ data:extend({
     {
       hardness = 0.2,
       mining_time = 0.5,
-      result = "stack-filter-inserter"
+      result = "stack-filter-inserter-mk2"
     },
     max_health = 160,
     corpse = "small-remnants",

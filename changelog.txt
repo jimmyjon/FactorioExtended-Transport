@@ -1,4 +1,12 @@
 ---------------------------------------------------------------------------------------------------
+Version: 0.4.4
+Date: 21. 02. 2020
+  Changes :
+    - Locomotives / Cargo-Wagons / Fluid-Wagons now have equipment grids (expanded on 0.3.0
+    when cars/tanks had equipment grids added)
+  Fixes :
+    - Fixed next_upgrade for Mk2 Stack and Filter Stack inserters
+---------------------------------------------------------------------------------------------------
 Version: 0.4.3
 Date: 15. 02. 2020
   Changes :

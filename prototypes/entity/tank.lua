@@ -1,11 +1,13 @@
 local green_tint = {r = 0.4, g = 0.804, b = 0.667, a = 0.8}
 local blue_tint = {r = 0.690, g = 0.75, b = 1}
 
-data.raw["car"]["tank"].equipment_grid = "car-small-equipment-grid"
+if not data.raw["car"]["tank"].equipment_grid then
+    data.raw["car"]["tank"].equipment_grid = "tank-small-equipment-grid"
+end
 
 local mk2 = table.deepcopy(data.raw["car"]["tank"])
 mk2.name = "tank-mk2"
-mk2.equipment_grid = "car-medium-equipment-grid"
+mk2.equipment_grid = "tank-medium-equipment-grid"
 mk2.braking_power = "600kW"
 mk2.inventory_size = 100
 mk2.max_health = 2500
@@ -24,7 +26,7 @@ mk2.icons = {
 
 local mk3 = table.deepcopy(data.raw["car"]["tank"])
 mk3.name = "tank-mk3"
-mk3.equipment_grid = "car-large-equipment-grid"
+mk3.equipment_grid = "tank-large-equipment-grid"
 mk3.braking_power = "800kW"
 mk3.inventory_size = 120
 mk3.max_health = 3000

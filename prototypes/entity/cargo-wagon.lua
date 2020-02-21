@@ -14,12 +14,17 @@ if not data.raw["cargo-wagon"]["cargo-wagon"].next_upgrade then
     data.raw["cargo-wagon"]["cargo-wagon"].next_upgrade = "cargo-wagon-mk2"
 end
 
+if not data.raw["cargo-wagon"]["cargo-wagon"].equipment_grid then
+    data.raw["cargo-wagon"]["cargo-wagon"].equipment_grid = "cargo-wagon-small-equipment-grid"
+end
+
 local mk2 = table.deepcopy(data.raw["cargo-wagon"]["cargo-wagon"])
 mk2.name = "cargo-wagon-mk2"
 mk2.icon = "__FactorioExtended-Plus-Transport__/graphics/icons/" .. mk2.name .. ".png"
 mk2.icon_size = 32
 mk2.icon_mipmaps = nil
 mk2.minable.result = mk2.name
+mk2.equipment_grid = "cargo-wagon-medium-equipment-grid"
 mk2.max_health = 1200
 mk2.next_upgrade = "cargo-wagon-mk3"
 mk2.inventory_size = 60
@@ -47,6 +52,7 @@ mk3.icon = "__FactorioExtended-Plus-Transport__/graphics/icons/" .. mk3.name .. 
 mk3.icon_size = 32
 mk3.icon_mipmaps = nil
 mk3.minable.result = mk3.name
+mk3.equipment_grid = "cargo-wagon-large-equipment-grid"
 mk3.max_health = 1800
 mk3.next_upgrade = nil
 mk3.inventory_size = 100

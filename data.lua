@@ -1,4 +1,5 @@
 require("prototypes.entity.__init__")
+require("prototypes.item.items")
 require("prototypes.item.offshore-pump")
 require("prototypes.item.item-trains")
 require("prototypes.item.item-transport")

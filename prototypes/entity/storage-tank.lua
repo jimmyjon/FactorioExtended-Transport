@@ -14,11 +14,8 @@ end
 local mk2 = table.deepcopy(data.raw["storage-tank"]["storage-tank"])
 mk2.name = "storage-tank-mk2"
 mk2.next_upgrade = nil
-mk2.icon = "__FactorioExtended-Plus-Transport__/graphics/icons/" .. mk2.name .. ".png"
-mk2.icon_size = 32
-mk2.icon_mipmaps = nil
 mk2.minable.result = mk2.name
-mk2.max_health = 200
+mk2.max_health = 2000
 mk2.fluid_box.base_area = 1000
 
 for _, direction in pairs({"north", "east", "south", "west"}) do

@@ -1,16 +1,16 @@
 {
     "name": "FactorioExtended-Plus-Transport",
-    "version": "0.4.7",
-    "factorio_version": "0.18",
-    "date": "2020-06-19",
+    "version": "1.0.0",
+    "factorio_version": "1.0",
+    "date": "2020-09-07",
     "title": "FactorioExtended Plus-Transport",
     "author": "jimmyjon711 (Original Author: Nath Gamer)",
     "contributers": "Cinjun, rgfirefly24, billbo99, Domanaik",
     "homepage": "",
     "description": "",
     "dependencies": [
-        "base >= 0.18.19",
-        "FactorioExtended-Plus-Core >= 0.4.0",
-        "(?)LoaderRedux >= 1.5.0"
+        "base >= 1.0.0",
+        "FactorioExtended-Plus-Core >= 1.0.0",
+        "(?)LoaderRedux >= 1.0.0"
     ]
 }

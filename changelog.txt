@@ -1,51 +1,57 @@
 ---------------------------------------------------------------------------------------------------
+Version: 1.0.0
+Date: 07. 09. 2020
+  Changes :
+    - Updated icons to 64x64,  matching vanilla
+
+---------------------------------------------------------------------------------------------------
 Version: 0.4.7
 Date: 28. 06. 2020
   Changes :
   Fixes :
-    -  Fixing health of storage tank mk2
+    - Fixing health of storage tank mk2
 
 ---------------------------------------------------------------------------------------------------
 Version: 0.4.6
 Date: 19. 06. 2020
   Changes :
   Fixes :
-    -  Fixing next upgrade
+    - Fixing next upgrade
 
 ---------------------------------------------------------------------------------------------------
 Version: 0.4.5
 Date: 07. 06. 2020
   Changes :
   Fixes :
-    -  Updated upgraded pipe throughput
+    - Updated upgraded pipe throughput
 
 ---------------------------------------------------------------------------------------------------
 Version: 0.4.4
 Date: 20. 04. 2020
   Changes :
   Fixes :
-    -  Removed next_upgrade from rolling stock
+    - Removed next_upgrade from rolling stock
 ---------------------------------------------------------------------------------------------------
 Version: 0.4.3
 Date: 15. 02. 2020
   Changes :
   Fixes :
-    -  Fixes pipe-to-ground mk2 max distance
-    -  Updated rapid-splitter-mk2 speed
-    -  Fixed mk1/mk2 rapid-splitter graphics
+    - Fixes pipe-to-ground mk2 max distance
+    - Updated rapid-splitter-mk2 speed
+    - Fixed mk1/mk2 rapid-splitter graphics
 ---------------------------------------------------------------------------------------------------
 Version: 0.4.2
 Date: 10. 02. 2020
   Changes :
   Fixes :
-    -  offshore-pump-mk2 .. should be disabled until researched
+    - offshore-pump-mk2 .. should be disabled until researched
 ---------------------------------------------------------------------------------------------------
 Version: 0.4.1
 Date: 2. 02. 2020
   Changes :
     - General Code Refactor
     - Added Offshore Pump Mk2
-  Fixes
+  Fixes :
     - Tanks / Cars should be items using the type "item-with-entity-data" to preserve their grids
     - Cleared icon_mipmaps warnings
     - Be nicer in how we deal with fast_replaceable_group & next_upgrade

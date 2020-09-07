@@ -1,11 +1,11 @@
 {
     "name": "FactorioExtended-Plus-Transport",
-    "version": "0.4.6",
+    "version": "0.4.7",
     "factorio_version": "0.18",
     "date": "2020-06-19",
     "title": "FactorioExtended Plus-Transport",
     "author": "jimmyjon711 (Original Author: Nath Gamer)",
-    "contributers": "Cinjun, rgfirefly24, billbo99",
+    "contributers": "Cinjun, rgfirefly24, billbo99, Domanaik",
     "homepage": "",
     "description": "",
     "dependencies": [

@@ -6,9 +6,6 @@
 --
 local mk2 = table.deepcopy(data.raw["pump"]["pump"])
 mk2.name = "pump-mk2"
-mk2.icon = "__FactorioExtended-Plus-Transport__/graphics/icons/" .. mk2.name .. ".png"
-mk2.icon_size = 32
-mk2.icon_mipmaps = nil
 mk2.minable.result = mk2.name
 mk2.max_health = 360
 mk2.energy_source.drain = "1kW"

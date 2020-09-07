@@ -1,4 +1,4 @@
-local green_tint = {r = 0.4, g = 0.804, b = 0.667, a = 0.8}
+local Constant = require("constant")
 
 -- offshore-pump                                mk1             mk2
 -- max_health                                   150             300
@@ -30,17 +30,8 @@ else
     mk2.fluid_box.height = 2
 end
 
-mk2.icons = {
-    {
-        icon = mk2.icon,
-        icon_mipmaps = mk2.icon_mipmaps,
-        icon_size = mk2.icon_size,
-        tint = green_tint
-    }
-}
-
 for _, direction in pairs({"north", "east", "south", "west"}) do
-    mk2.picture[direction].tint = green_tint
+    mk2.picture[direction].tint = Constant.green_tint
 end
 
 data:extend({mk2})

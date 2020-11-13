@@ -1,3 +1,5 @@
+local Constant = require("constant")
+
 -- pipe                                         mk1                                 mk2
 -- max_health                                   100                                 200
 --
@@ -6,6 +8,7 @@ local mk2 = table.deepcopy(data.raw["pipe"]["pipe"])
 mk2.name = "pipe-mk2"
 mk2.minable.result = mk2.name
 mk2.max_health = 200
+mk2.icons = {{icon = mk2.icon, icon_mipmaps = 4, icon_size = 64, tint = Constant.green_tint}}
 
 if mk2.fluid_box.base then
     mk2.fluid_box.base = mk2.fluid_box.base * 2

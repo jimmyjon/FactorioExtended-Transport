@@ -18,6 +18,7 @@ mk2.next_upgrade = nil
 mk2.minable.result = mk2.name
 mk2.max_health = 300
 mk2.pumping_speed = 40
+mk2.icons = {{icon = mk2.icon, icon_mipmaps = 4, icon_size = 64, tint = Constant.green_tint}}
 
 if mk2.fluid_box.base then
     mk2.fluid_box.base = mk2.fluid_box.base * 2
@@ -31,7 +32,8 @@ else
 end
 
 for _, direction in pairs({"north", "east", "south", "west"}) do
-    mk2.picture[direction].tint = Constant.green_tint
+    mk2.graphics_set.animation[direction].layers[1].tint = Constant.green_tint
+    mk2.graphics_set.animation[direction].layers[1].hr_version.tint = Constant.green_tint
 end
 
 data:extend({mk2})

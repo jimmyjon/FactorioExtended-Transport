@@ -1,3 +1,5 @@
+local Constant = require("constant")
+
 -- pump                                         mk1                                 mk2
 -- max_health                                   180                                 360
 -- energy_source.drain                          1kW                                 1kW
@@ -11,6 +13,7 @@ mk2.max_health = 360
 mk2.energy_source.drain = "1kW"
 mk2.energy_usage = "60kW"
 mk2.pumping_speed = 400
+mk2.icons = {{icon = mk2.icon, icon_mipmaps = 4, icon_size = 64, tint = Constant.green_tint}}
 
 if mk2.fluid_box.base then
     mk2.fluid_box.base = mk2.fluid_box.base * 2

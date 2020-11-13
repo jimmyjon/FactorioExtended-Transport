@@ -8,11 +8,6 @@ local Constant = require("constant")
 -- air_resistance                           0.0075                              0.005                               0.0025
 -- color                                    {r=0.43, g=0.23, b= 0, a = 0.5}     {r=0.4, g=0.804, b=0.667, a=0.8}    {r=0.690, g=0.75, b=1}
 --
--- If someone has already set the fast_replaceable_group lets use it too
-if not data.raw["locomotive"]["locomotive"].fast_replaceable_group then
-    data.raw["locomotive"]["locomotive"].fast_replaceable_group = "locomotive"
-end
-
 local mk2 = table.deepcopy(data.raw["locomotive"]["locomotive"])
 mk2.name = "locomotive-mk2"
 mk2.equipment_grid = "car-medium-equipment-grid"

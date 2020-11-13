@@ -4,14 +4,6 @@ local Constant = require("constant")
 -- max_health                                   150             300
 -- pumping_speed                                20              40
 --
--- If someone has already set the fast_replaceable_group lets use it too
-if not data.raw["offshore-pump"]["offshore-pump"].fast_replaceable_group then
-    data.raw["offshore-pump"]["offshore-pump"].fast_replaceable_group = "offshore-pump"
-end
-if not data.raw["offshore-pump"]["offshore-pump"].next_upgrade then
-    data.raw["offshore-pump"]["offshore-pump"].next_upgrade = "offshore-pump-mk2"
-end
-
 local mk2 = table.deepcopy(data.raw["offshore-pump"]["offshore-pump"])
 mk2.name = "offshore-pump-mk2"
 mk2.next_upgrade = nil

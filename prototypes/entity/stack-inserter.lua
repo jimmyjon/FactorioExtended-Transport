@@ -6,10 +6,6 @@
 -- extension_speed                              0.07                                0.09                                0.09
 -- rotation_speed                               0.04                                0.07                                0.07
 --
-if not data.raw["inserter"]["stack-inserter"].next_upgrade then
-    data.raw["inserter"]["stack-inserter"].next_upgrade = "stack-inserter-mk2"
-end
-
 local smk2 = table.deepcopy(data.raw["inserter"]["stack-inserter"])
 smk2.name = "stack-inserter-mk2"
 smk2.next_upgrade = nil
@@ -32,10 +28,6 @@ smk2.hand_open_picture.filename = "__FactorioExtended-Plus-Transport__/graphics/
 smk2.hand_open_picture.hr_version.filename = "__FactorioExtended-Plus-Transport__/graphics/entity/stack-inserter-mk2/hr-stack-inserter-hand-open-mk2.png"
 smk2.platform_picture.sheet.filename = "__FactorioExtended-Plus-Transport__/graphics/entity/stack-inserter-mk2/stack-inserter-platform-mk2.png"
 smk2.platform_picture.sheet.hr_version.filename = "__FactorioExtended-Plus-Transport__/graphics/entity/stack-inserter-mk2/hr-stack-inserter-platform-mk2.png"
-
-if not data.raw["inserter"]["stack-filter-inserter"].next_upgrade then
-    data.raw["inserter"]["stack-filter-inserter"].next_upgrade = "stack-filter-inserter-mk2"
-end
 
 local fmk2 = table.deepcopy(data.raw["inserter"]["stack-filter-inserter"])
 fmk2.name = "stack-filter-inserter-mk2"

@@ -1,16 +1,7 @@
 -- storage-tank                                 mk1                                 mk2
 -- max_health                                   500                                 2000
 -- fluid_box.base_area                          250                                 1000
-
 --
--- If someone has already set the fast_replaceable_group lets use it too
-if not data.raw["storage-tank"]["storage-tank"].fast_replaceable_group then
-    data.raw["storage-tank"]["storage-tank"].fast_replaceable_group = "storage-tank"
-end
-if not data.raw["storage-tank"]["storage-tank"].next_upgrade then
-    data.raw["storage-tank"]["storage-tank"].next_upgrade = "storage-tank-mk2"
-end
-
 local mk2 = table.deepcopy(data.raw["storage-tank"]["storage-tank"])
 mk2.name = "storage-tank-mk2"
 mk2.next_upgrade = nil

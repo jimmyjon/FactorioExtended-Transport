@@ -4,10 +4,6 @@ local Belt = require("prototypes.entity.transport-belt-pictures")
 -- max_health                                   150         160         170         180         190
 -- speed                                        0.03125     0.0625      0.09375     0.125       0.15625
 --
-if not data.raw["transport-belt"]["express-transport-belt"].next_upgrade then
-    data.raw["transport-belt"]["express-transport-belt"].next_upgrade = "rapid-transport-belt-mk1"
-end
-
 local mk4 = table.deepcopy(data.raw["transport-belt"]["transport-belt"])
 mk4.name = "rapid-transport-belt-mk1"
 mk4.icon = "__FactorioExtended-Plus-Transport__/graphics/icons/" .. mk4.name .. ".png"

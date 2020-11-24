@@ -10,7 +10,7 @@ mk2.next_upgrade = nil
 mk2.minable.result = mk2.name
 mk2.max_health = 300
 mk2.pumping_speed = 40
-mk2.icons = {{icon = mk2.icon, icon_mipmaps = 4, icon_size = 64, tint = Constant.green_tint}}
+mk2.icons = {{icon = mk2.icon, icon_mipmaps = mk2.icon_mipmaps, icon_size = mk2.icon_size, tint = Constant.green_tint}}
 
 if mk2.fluid_box.base then
     mk2.fluid_box.base = mk2.fluid_box.base * 2

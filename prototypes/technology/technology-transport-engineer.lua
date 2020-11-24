@@ -6,8 +6,8 @@ data:extend(
         {
             type = "technology",
             name = "logistics-4",
-            icon = "__base__/graphics/technology/logistics.png",
-            icon_size = 128,
+            icon = "__FactorioExtended-Plus-Transport__/graphics/technology/logistics-4.png",
+            icon_size = 256,
             prerequisites = {"logistics-3", "titanium-processing"},
             effects = {
                 {
@@ -47,8 +47,8 @@ data:extend(
         {
             type = "technology",
             name = "logistics-5",
-            icon = "__base__/graphics/technology/logistics.png",
-            icon_size = 128,
+            icon = "__FactorioExtended-Plus-Transport__/graphics/technology/logistics-5.png",
+            icon_size = 256,
             prerequisites = {"logistics-4", "speed-module-2", "advanced-electronics-2"},
             effects = {
                 {
@@ -89,7 +89,7 @@ data:extend(
             type = "technology",
             name = "stack-inserter-2",
             icon = "__base__/graphics/technology/stack-inserter.png",
-            icon_size = 128,
+            icon_size = 256,
             effects = {
                 {
                     type = "unlock-recipe",
@@ -116,7 +116,7 @@ data:extend(
         {
             type = "technology",
             name = "railway-2",
-            icon_size = 128,
+            icon_size = 256,
             icon = "__base__/graphics/technology/railway.png",
             prerequisites = {"automated-rail-transportation", "advanced-electronics", "titanium-processing"},
             effects = {
@@ -148,7 +148,7 @@ data:extend(
         {
             type = "technology",
             name = "railway-3",
-            icon_size = 128,
+            icon_size = 256,
             icon = "__base__/graphics/technology/railway.png",
             prerequisites = {"railway-2", "advanced-electronics-2"},
             effects = {
@@ -182,7 +182,7 @@ data:extend(
             type = "technology",
             name = "factorio-extended-fluid-handling",
             icon = "__base__/graphics/technology/fluid-handling.png",
-            icon_size = 128,
+            icon_size = 256,
             prerequisites = {"fluid-handling", "titanium-processing"},
             effects = {
                 {
@@ -220,7 +220,7 @@ data:extend(
         {
             type = "technology",
             name = "automobilism-2",
-            icon_size = 128,
+            icon_size = 256,
             icons = {{icon = "__base__/graphics/technology/automobilism.png", tint = green_tint}},
             prerequisites = {"automobilism", "titanium-processing"},
             effects = {
@@ -243,7 +243,7 @@ data:extend(
         {
             type = "technology",
             name = "automobilism-3",
-            icon_size = 128,
+            icon_size = 256,
             icons = {{icon = "__base__/graphics/technology/automobilism.png", tint = blue_tint}},
             prerequisites = {"automobilism-2", "titanium-processing", "advanced-electronics-2"},
             effects = {
@@ -266,9 +266,9 @@ data:extend(
         {
             type = "technology",
             name = "tanks-2",
-            icon_size = 128,
-            icons = {{icon = "__base__/graphics/technology/tanks.png", tint = green_tint}},
-            prerequisites = {"tanks", "titanium-processing"},
+            icon_size = 256,
+            icons = {{icon = "__base__/graphics/technology/tank.png", tint = green_tint}},
+            prerequisites = {"tank", "titanium-processing"},
             effects = {
                 {
                     type = "unlock-recipe",
@@ -290,8 +290,8 @@ data:extend(
         {
             type = "technology",
             name = "tanks-3",
-            icon_size = 128,
-            icons = {{icon = "__base__/graphics/technology/tanks.png", tint = blue_tint}},
+            icon_size = 256,
+            icons = {{icon = "__base__/graphics/technology/tank.png", tint = blue_tint}},
             prerequisites = {"tanks-2", "titanium-processing", "advanced-electronics-2"},
             effects = {
                 {

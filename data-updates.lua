@@ -2,6 +2,8 @@
 if not data.raw["offshore-pump"]["offshore-pump"].fast_replaceable_group then
     data.raw["offshore-pump"]["offshore-pump"].fast_replaceable_group = "offshore-pump"
     data.raw["offshore-pump"]["offshore-pump-mk2"].fast_replaceable_group = "offshore-pump"
+else
+    data.raw["offshore-pump"]["offshore-pump-mk2"].fast_replaceable_group = data.raw["offshore-pump"]["offshore-pump"].fast_replaceable_group
 end
 if not data.raw["offshore-pump"]["offshore-pump"].next_upgrade then
     data.raw["offshore-pump"]["offshore-pump"].next_upgrade = "offshore-pump-mk2"
@@ -61,6 +63,8 @@ end
 if not data.raw["storage-tank"]["storage-tank"].fast_replaceable_group then
     data.raw["storage-tank"]["storage-tank"].fast_replaceable_group = "storage-tank"
     data.raw["storage-tank"]["storage-tank-mk2"].fast_replaceable_group = "storage-tank"
+else
+    data.raw["storage-tank"]["storage-tank-mk2"].fast_replaceable_group = data.raw["storage-tank"]["storage-tank"].fast_replaceable_group
 end
 if not data.raw["storage-tank"]["storage-tank"].next_upgrade then
     data.raw["storage-tank"]["storage-tank"].next_upgrade = "storage-tank-mk2"
